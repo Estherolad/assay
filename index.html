@@ -18,11 +18,14 @@
     <link rel="shortcut icon" href="./image/logo.png" type="image/x-icon">
 </head>
 <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
-  <div class="container-fluid">
-      <img src="./image/logo.png" alt="LOGOO.png"alt='logo' width="40" height="40" style="margin-right: 10rem;">
-    <a href="#" class="navbar-brand ps-5">ALPHA REFINERY LIMITED</a>
+     <!-- nav -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid d-flex align-items-center">
+    <!-- Logo -->
+    <img src="./image/alphaeye.png" alt="Logo" style="height:40px; margin-right:10px;">
+
+    <!-- Company Name -->
+    <span class="navbar-brand mb-0 h1">ALPHA REFINERY LIMITED</span>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -32,23 +35,19 @@
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
         </li>
-      
         <!-- services dropdown -->
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle active nav-link active"href="./service.html" id="servicesLink" role="button" data-bs-toggle="dropdown">Services</a>
+          <a class="nav-link dropdown-toggle active"href="./service.html" id="servicesLink" role="button" data-bs-toggle="dropdown">Services</a>
        <ul class="dropdown-menu dropdown-menu-white" aria-labelledby="servicesLink">   
   <li><a class="dropdown-item" href="./gold mining.html">Gold Mining</a></li>
   <li><a class="dropdown-item" href="./gold refining.html">Gold  Refining</a></li>
   <li><a class="dropdown-item" href="./transaction handling.html">Transaction Handling</a></li>
   <li><a class="dropdown-item" href="./gold assaying.html">Gold Assaying</a></li>
   <li><a class="dropdown-item" href="./gold smelting.html">Gold Smelting</a></li>
-  <li><a class="dropdown-item" href="./service.html">Other Services</a></li>
 </ul>
         </li> 
         <!-- End dropdown
-
-
-         contiune -->
+    contiune -->
 
         </li>
         <li class="nav-item">
@@ -65,9 +64,10 @@
     </div>
   </div>
 </nav>
+
 <main>
 <section>
-  <div class=" fly-down  container-fluid bg-black text-white py-5 mb-4">
+  <div class=" fly-down  container-fluid bg-black text-white mb-4">
   <div class="container fly-down">
     <div class="row align-items-center"> 
       <!-- Left: Text -->
@@ -88,7 +88,7 @@
       
       <!-- Right: Image -->
       <div class="col-12 col-md-6 text-center">
-        <img src="./image/norm.jpg" alt="Gold Image" class="img-fluid" style="max-width: 100%; height: auto;">
+        <img src="./image/normal.png" alt="Gold Image" class="img-fluid" style="max-width: 100%; height: auto;">
       </div>
     </div>
   </div>
@@ -153,7 +153,7 @@
   <div class="row align-items-start"> 
     <!-- Section Title -->
     <div class="col-md-4 mb-4">
-      <h3 class="text-muted">Testimonials</h3>
+      <h1 class="text-muted">Testimonials</h1>
       <h2 class="fw-bold">What They Say</h2>
       <p class="text-muted">Alpha Refinery Limited delivers exceptional service, ensuring top quality gold supply and client satisfaction.</p>
       <hr class="border-warning" style="width: 40px;">
@@ -167,7 +167,7 @@
         <div class="col-md-4">
           <div class="border rounded p-3 h-100">
             <div class="d-flex align-items-center mb-2">
-              <img src="./image/photo1.jpeg" class="rounded-circle me-2" style="width: 100px; height: 100px;"  alt="Abu Hassan">
+              <img src="./image/photo1.jpeg" class="rounded-circle me-2" style="width: 100px; height: 100px; object-fit: cover;"  alt="Abu Hassan">
               <div>
                 <h6 class="mb-0">Abu Hassan</h6>
               </div>
@@ -181,7 +181,7 @@
         <div class="col-md-4">
           <div class="border rounded p-3 h-100">
             <div class="d-flex align-items-center mb-2">
-              <img src="./image/photo 4.jpeg" class="rounded-circle me-2" style="width: 100px; height: 100px;"  alt="Abu Hassan">
+              <img src="./image/photo 4.jpeg" class="rounded-circle me-2" style="width: 100px; height: 100px; object-fit: cover;"  alt="Abu Hassan">
               <div>
                 <h6 class="mb-0">Nathan Ling</h6>
               </div>
@@ -195,7 +195,7 @@
         <div class="col-md-4">
           <div class="border rounded p-3 h-100">
             <div class="d-flex align-items-center mb-2">
-              <img src="./image/photo 3.jpeg" class="rounded-circle me-2" style="width: 100px; height: 100px;"  alt="Abu Hassan">
+              <img src="./image/photo 3.jpeg" class="rounded-circle me-2" style="width: 100px; height: 100px; object-fit: cover;"  alt="Abu Hassan">
               <div>
                 <h6 class="mb-0">Ahmed Abdullah</h6>
               </div>
@@ -210,8 +210,10 @@
 </section>
 
  <!-- question Accordion   -->
-<section id="services" class="p-5">
-  <div class="container">
+<section id="services" class="py-5">
+  <div class="container-fluid ">
+    <div class="row justify-content-center">
+      <div class="col-lg-10 col-md-11">
     <h2 class="text-center mb-4">Frequently Asked Questions</h2>
 
     <div class="accordion accordion-flush" id="accordionFlushExample">
@@ -246,6 +248,8 @@
     </div>
   </div>
 </div>
+</div>
+</div>
 </section>
 </main>
 
@@ -255,16 +259,16 @@
   <div class="container">
     <div class="row">
 <div class="col-xl-9 mx-auto">
-  <h2 style="text-align: center;">Ready to get started? Sign up now!</h2>
+  <h2 style="text-align: center;">Subscribe to our newsletter</h2>
 </div>
 <div class="col-md-10 col-lg-9 col-xl-7 mx-auto">
-  <form>
+  <form class="d-flex justify-content-center">
     <div class="form-row">
-<div class="col-12 col-md-9 mb-5 mb-md-0">
-  <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
+<div class="col-12 col-md-9 mb-3 mb-md-0">
+  <input type="email" class="form-control form-control-lg" placeholder="Enter your email..." style="padding-left: 3rem; padding-right: 8rem;">
 </div>
-<div class="col-6 col-md-3">
- <button type="submit" class="btn btn-block btn-lg btn-primary mt-3 px-4 w-100 bg-black align-items-center" style="margin-left: 5rem;">Sign up!</button>
+<div class="col-12 col-md-9 d-flex justify-content-center">
+ <button type="submit" class="btn btn-block btn-lg btn-black text-white mt-3 px-4 bg-black align-items-center">Sign up!</button>
 </div>
     </div>
   </form>
