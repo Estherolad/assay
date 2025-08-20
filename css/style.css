@@ -145,7 +145,7 @@ html, body {
       color: #fff;
       padding: 6rem;
       text-align: center;
-      height: 50vh;
+      height: 30vh;
     }
 
     .highlight-box {
@@ -266,3 +266,4 @@ html, body {
       padding-bottom: 50%;
 }
 }
+
