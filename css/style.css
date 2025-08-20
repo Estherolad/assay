@@ -233,7 +233,7 @@ html, body {
 /* media */
  @media screen and (max-width:400px) {
   .about-header{
-    height: 100vh; 
+    height: 30vh; 
   }
   .about-header h2{
  padding-top: 4rem;
