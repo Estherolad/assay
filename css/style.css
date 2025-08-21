@@ -233,6 +233,13 @@ html, body {
   border-top: 2px solid grey;
   margin-top: 20px;
 }
+
+
+.quick-underline {
+  display: inline-block;
+  border-bottom: 4px solid #fbc02d;
+  line-height: 1.2;
+}
 /* media */
  @media screen and (max-width:400px) {
   .about-header{
@@ -259,6 +266,9 @@ html, body {
       margin-bottom: 0.1rem !important;
       padding-bottom: 2rem;
     }
+    .mining-hero h1 {
+      padding-top: 10rem;
+    }
   }
   @media screen and (max-width:1080px) {
     .container-footer {
@@ -273,4 +283,5 @@ html, body {
 }
  }
 
+ 
 
