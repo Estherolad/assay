@@ -139,13 +139,16 @@ html, body {
       font-size: 1.5rem;
     }
 /* about us */
-  .about-header {
-      background: url('../image/smelt102.jpeg') no-repeat center center;
-      background-size: cover;
-      color: #fff;
-      padding: 6rem;
+ .contact-header {
+      background-image: url("../image/smelt102.jpeg");
+      color: white;
+      padding: 60px 20px;
       text-align: center;
-      height: 30vh;
+    }
+    .contact-info {
+      background-color: #000;
+      color: white;
+      padding: 40px 0;
     }
 
     .highlight-box {
@@ -252,18 +255,22 @@ html, body {
       padding: 0.15rem 0.25rem !important;
       font-size: 1rem !important;
     }
-    
+    .container-footer {
+      margin-bottom: 0.1rem !important;
+      padding-bottom: 2rem;
+    }
   }
   @media screen and (max-width:1080px) {
     .container-footer {
-      margin-bottom: 20%;
-      padding-bottom: 20%;
+      margin-bottom: 100%;
+      padding-bottom: 100%;
     }
   }
-@media screen and (max-width:932px) {
-     .container-footer {
+ @media screen and (max-width:932px) {
+      .container-footer {
       margin-bottom: 50%;
-      padding-bottom: 50%;
+      padding-bottom: 200px ;
 }
-}
+ }
+
 
