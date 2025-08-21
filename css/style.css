@@ -183,9 +183,25 @@ html, body {
     .star {
       color: gold;
     }
+.gold-refining {
+    background-image: url(../image/IMG_4784.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    position: relative;
+    overflow-x: hidden;
+}
+.gold-smelting {
+    background-image: url(../image/smelt102.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    position: relative;
+    overflow-x: hidden;
+}
 /* mining */
 .mining-hero {
-    background-image: url(../image/IMG_4784.jpeg);
+    background-image: url(../image/gold103.jpeg);
     background-size: cover;
     background-position: center;
     height: 50vh;
