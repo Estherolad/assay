@@ -145,12 +145,7 @@ html, body {
       padding: 60px 20px;
       text-align: center;
     }
-    .contact-info {
-      background-color: #000;
-      color: white;
-      padding: 40px 0;
-    }
-
+  
     .highlight-box {
       background-color: #f8f9fa;
       padding: 30px;
@@ -255,6 +250,16 @@ html, body {
       padding-top: 0.1rem !important;
       padding-bottom: 0.1rem !important;
       min-height: 40px !important;
+    }
+    .about-header {
+      padding: 4px;
+      height: 300px;
+    }
+    .about-header h1 {
+      margin-top: 9rem;
+    }
+    .about-header h2 {
+      font-size: 1rem;
     }
     .navbar-brand img {
     max-height: 35px !important;
