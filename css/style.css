@@ -139,7 +139,7 @@ html, body {
       font-size: 1.5rem;
     }
 /* about us */
- .contact-header {
+ .about-header {
       background-image: url("../image/smelt102.jpeg");
       color: white;
       padding: 60px 20px;
@@ -234,12 +234,13 @@ html, body {
   margin-top: 20px;
 }
 
-
+/* underline */
 .quick-underline {
   display: inline-block;
   border-bottom: 4px solid #fbc02d;
   line-height: 1.2;
 }
+
 /* media */
  @media screen and (max-width:400px) {
   .about-header{
@@ -278,8 +279,8 @@ html, body {
   }
  @media screen and (max-width:932px) {
       .container-footer {
-      margin-bottom: 50%;
-      padding-bottom: 200px ;
+      margin-bottom: 100px;
+      padding-bottom: 400px ;
 }
  }
 
